@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px ;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.nav_bar label input {
+    border-style: none;
+    background-color: rgb(56, 56, 56);
+    padding: 15px 50px 15px 15px;
+    border-radius: 15px;
+}
+
+.nav_usr {
+    align-self: center;
+}
+
+.nav_usr button {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+}
+
+.nav_usr button picture img {
+    background-color: rgb(19, 115, 113);
+    border-radius: 20px;
+}
+
+.nav_links li{
+    display: inline-block;
+    list-style: none;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.nav_links li a {
+    color: white;
+    text-decoration: none;
+}
