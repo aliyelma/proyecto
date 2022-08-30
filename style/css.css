@@ -118,7 +118,9 @@ body{
 }
 
 .card-btc {
-    background-color: #1FC952;
+    background-color: rgb(56, 56, 56);
+    height: 150px;
+    border-radius: 20px;
 }
 
 .logo-btc {
@@ -129,6 +131,7 @@ body{
     height: 35px;
     width: 35px;
     border-radius: 100px;
+    margin: 10px 0px;
 }
 
 .logo-btc img {
@@ -136,12 +139,24 @@ body{
     transform: rotate(15deg);
 }
 
-.text-top p ,.text-top span {
+.text-top p, .text-top span {
     color: white;
 }
 
 .text-top p{
     position: relative;
     left: 50px;
-    bottom: 30px;
+    bottom: 35px;
+}
+
+.text-top span {
+    position: relative;
+    left: 105px;
+    bottom: 62.6px;
+}
+
+.chev-btc {
+    position: relative;
+    left: 300px;
+    bottom: 60px;
 }
