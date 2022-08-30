@@ -27,7 +27,7 @@ body{
     width: 100px;
     display: flex;
     align-items: center;
-    padding: 15px 0xp 15px 15px;
+    padding: 15px 0px 15px 15px;
     cursor: pointer;
     margin: 10px 0px 0px 10px;
 }
@@ -105,4 +105,43 @@ body{
 .nav_links li a {
     color: white;
     text-decoration: none;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;    
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.card-btc {
+    background-color: #1FC952;
+}
+
+.logo-btc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+}
+
+.logo-btc img {
+    width: 28px;
+    transform: rotate(15deg);
+}
+
+.text-top p ,.text-top span {
+    color: white;
+}
+
+.text-top p{
+    position: relative;
+    left: 50px;
+    bottom: 30px;
 }
